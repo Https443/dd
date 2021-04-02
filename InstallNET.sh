@@ -2,9 +2,9 @@
 
 ## License: GPL
 ## This is the magically modified version of the one-click reload script.
+## Support GRUB or GRUB2 for installing a clean minimal system
 ## It can reinstall CentOS, Debian, Ubuntu and other Linux systems (continuously added) over the network in one click.
 ## It can reinstall Windwos 2003, 7, 2008R2, 2012R2, 2016, 2019 and other Windows systems (continuously added) via the network in one click.
-## Support GRUB or GRUB2 for installing a clean minimal system
 ## Magic Modify version author:
 ## Default root password: @Passw0rd.net
 
