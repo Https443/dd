@@ -6,9 +6,11 @@
 ## It can reinstall Windwos 2003, 7, 2008R2, 2012R2, 2016, 2019 and other Windows systems (continuously added) via the network in one click.
 ## Support GRUB or GRUB2 for installing a clean minimal system.
 
+## Magic Modify version author:
+## Default root password: @Passw0rd.net
+
 ## Original version author:
 ## Blog: https://moeclub.org
-## Written By MoeClub.org
 
 
 export tmpVER=''
@@ -335,7 +337,7 @@ if [[ "$SpikCheckDIST" == '0' ]]; then
 fi
 
 [[ "$ddMode" == '1' ]] && {
-  export SSL_SUPPORT='https://github.com/veip007/dd/raw/master/wget_udeb_amd64.tar.gz';
+  export SSL_SUPPORT='https://github.com/Https443/dd/blob/master/wget_udeb_amd64.tar.gz';
   if [[ -n "$tmpURL" ]]; then
     DDURL="$tmpURL"
     echo "$DDURL" |grep -q '^http://\|^ftp://\|^https://';
@@ -354,7 +356,7 @@ fi
 
 [ -n "$ipAddr" ] && [ -n "$ipMask" ] && [ -n "$ipGate" ] && setNet='1';
 [[ -n "$tmpWORD" ]] && myPASSWORD="$(openssl passwd -1 "$tmpWORD")";
-[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$4BJZaD0A$y1QykUnJ6mXprENfwpseH0';
+[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$LA4BuTvr$vUDrIp5goufGSuzBoZoHf0';
 
 if [[ -n "$interface" ]]; then
   IFETH="$interface"
